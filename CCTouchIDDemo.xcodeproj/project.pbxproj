@@ -15,6 +15,14 @@
 		84C806121C532150004980B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C806101C532150004980B3 /* LaunchScreen.storyboard */; };
 		84C8061D1C532150004980B3 /* CCTouchIDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8061C1C532150004980B3 /* CCTouchIDDemoTests.m */; };
 		84C806281C532150004980B3 /* CCTouchIDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C806271C532150004980B3 /* CCTouchIDDemoUITests.m */; };
+		84C806361C532193004980B3 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C806351C532193004980B3 /* LocalAuthentication.framework */; };
+		84C806381C53219D004980B3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C806371C53219D004980B3 /* CoreLocation.framework */; };
+		84C8063A1C5321A6004980B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C806391C5321A6004980B3 /* Foundation.framework */; };
+		84C8063C1C5321AE004980B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C8063B1C5321AE004980B3 /* UIKit.framework */; };
+		84C8063E1C5321B9004980B3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C8063D1C5321B9004980B3 /* CoreFoundation.framework */; };
+		84C806431C5321FC004980B3 /* fingerprint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C806411C5321FC004980B3 /* fingerprint@2x.png */; settings = {ASSET_TAGS = (); }; };
+		84C806441C5321FC004980B3 /* fingerprint@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C806421C5321FC004980B3 /* fingerprint@3x.png */; settings = {ASSET_TAGS = (); }; };
+		84C806491C532D4A004980B3 /* CCTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C806481C532D4A004980B3 /* CCTouchID.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		84C806231C532150004980B3 /* CCTouchIDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCTouchIDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C806271C532150004980B3 /* CCTouchIDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTouchIDDemoUITests.m; sourceTree = "<group>"; };
 		84C806291C532150004980B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C806351C532193004980B3 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		84C806371C53219D004980B3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84C806391C5321A6004980B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C8063B1C5321AE004980B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C8063D1C5321B9004980B3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		84C806411C5321FC004980B3 /* fingerprint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint@2x.png"; sourceTree = "<group>"; };
+		84C806421C5321FC004980B3 /* fingerprint@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint@3x.png"; sourceTree = "<group>"; };
+		84C806471C532D4A004980B3 /* CCTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTouchID.h; sourceTree = "<group>"; };
+		84C806481C532D4A004980B3 /* CCTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTouchID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C8063E1C5321B9004980B3 /* CoreFoundation.framework in Frameworks */,
+				84C8063C1C5321AE004980B3 /* UIKit.framework in Frameworks */,
+				84C8063A1C5321A6004980B3 /* Foundation.framework in Frameworks */,
+				84C806381C53219D004980B3 /* CoreLocation.framework in Frameworks */,
+				84C806361C532193004980B3 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,13 @@
 		84C805F61C532150004980B3 = {
 			isa = PBXGroup;
 			children = (
+				84C806401C5321E4004980B3 /* Resources */,
+				84C8063F1C5321C6004980B3 /* CCTouchID */,
+				84C8063D1C5321B9004980B3 /* CoreFoundation.framework */,
+				84C8063B1C5321AE004980B3 /* UIKit.framework */,
+				84C806391C5321A6004980B3 /* Foundation.framework */,
+				84C806371C53219D004980B3 /* CoreLocation.framework */,
+				84C806351C532193004980B3 /* LocalAuthentication.framework */,
 				84C806011C532150004980B3 /* CCTouchIDDemo */,
 				84C8061B1C532150004980B3 /* CCTouchIDDemoTests */,
 				84C806261C532150004980B3 /* CCTouchIDDemoUITests */,
@@ -138,6 +167,24 @@
 				84C806291C532150004980B3 /* Info.plist */,
 			);
 			path = CCTouchIDDemoUITests;
+			sourceTree = "<group>";
+		};
+		84C8063F1C5321C6004980B3 /* CCTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				84C806471C532D4A004980B3 /* CCTouchID.h */,
+				84C806481C532D4A004980B3 /* CCTouchID.m */,
+			);
+			name = CCTouchID;
+			sourceTree = "<group>";
+		};
+		84C806401C5321E4004980B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84C806411C5321FC004980B3 /* fingerprint@2x.png */,
+				84C806421C5321FC004980B3 /* fingerprint@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C806441C5321FC004980B3 /* fingerprint@3x.png in Resources */,
 				84C806121C532150004980B3 /* LaunchScreen.storyboard in Resources */,
 				84C8060F1C532150004980B3 /* Assets.xcassets in Resources */,
 				84C8060D1C532150004980B3 /* Main.storyboard in Resources */,
+				84C806431C5321FC004980B3 /* fingerprint@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C806491C532D4A004980B3 /* CCTouchID.m in Sources */,
 				84C8060A1C532150004980B3 /* ViewController.m in Sources */,
 				84C806071C532150004980B3 /* AppDelegate.m in Sources */,
 				84C806041C532150004980B3 /* main.m in Sources */,
@@ -412,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCTouchIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxk.CCTouchIDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CCTouchIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxk.CCTouchIDDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
